@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body{
+    background-image: url("../icons/zap-background.jpg");
+}
+img{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    color: white;
+    filter: invert(100%);
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #1f9158;
+}
