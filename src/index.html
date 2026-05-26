@@ -14,7 +14,7 @@
             <h1>Empresa</h1>
         </div>
         <div id="caixa">
-
+            <p>Olá! Insira seus dados para ser direcionado para o WhatsApp</p>
         </div>
         <div id="nome">
             <label>Seu nome</label>
@@ -22,20 +22,21 @@
         </div>
         <div id="email">
             <label>Seu e-mail</label>
-            <input type="text" placeholder="exemplo@gmail.com">
+            <input type="email" placeholder="exemplo@gmail.com">
         </div>
         <div id="numero">
             <label>Seu WhatsApp</label>
-            <input type="text" placeholder="+55 (88) 98888-8888">
+            <input type="tel" placeholder="+55 (88) 98888-8888">
         </div>
         <div id="button">
-            <button>ir para o WhatsApp</button>
+            <button type="button" onclick="mandar()">ir para o WhatsApp</button>
         </div>
+        <footer>
+           <p>powered by Agendor</p>
+        </footer>
     </main>
 
-    <footer>
-        <p>powered by Agendor</p>
-    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
